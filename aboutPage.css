@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: aqua;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 85%;
+    border-bottom-right-radius: 50px;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: rgb(186, 205, 226);
+}
+
+header h2 {
+    padding: 0px 20px;
+    font-size: 30px
+}
+
+                                   /* Start of Picture Background Design CSS */
+.background {
+    background-color: rgb(188, 218, 243);
+
+}
+
+.SanNicolasDeTolentino {
+    position: fixed;
+    margin: 50px 650px;
+    opacity: 80%;
+    z-index: -1;
+    
+}
+
+.churchPic {
+    position: fixed;
+    margin: -190px 300px;
+    z-index: -2;
+    opacity: 70%;
+}
+
+.clouds {
+    position: fixed;
+    z-index: -3;
+    margin-top: -300px;
+    opacity: 50%;
+}
+                                   /* End of Picture Background Design CSS */
